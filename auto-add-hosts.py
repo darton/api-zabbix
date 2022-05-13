@@ -43,4 +43,4 @@ for [hostname,ip] in f:
     bar.update(i)
 
 bar.finish
-print " "
+print (" ")
