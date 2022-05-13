@@ -10,10 +10,11 @@
 You need lib zabbix-api and pip
 
 ```sh
-# apt-get install python-pip git
-# pip install zabbix-api
-
-$ git clone https://github.com/janssenlima/api-zabbix
+apt-get -y install python3-pip git
+pip3 install zabbix-api
+pip3 install pyzabbix
+pip3 install progressbar
+git clone https://github.com/darton/api-zabbix
 ```
 
 ## How to use - examples
